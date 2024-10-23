@@ -33,6 +33,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 		Novice::DrawBox(20, 10, 10, 10, 0.0f, WHITE, kFillModeSolid);
 		Novice::DrawBox(100, 10, 10, 10, 0.0f, WHITE, kFillModeSolid);
+		Novice::ScreenPrintf(0,0,"ローカルで変更\n");
 		///
 		/// ↑描画処理ここまで
 		///
