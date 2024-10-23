@@ -32,6 +32,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		/// ↓描画処理ここから
 		///
 		Novice::DrawBox(20, 10, 10, 10, 0.0f, WHITE, kFillModeSolid);
+		Novice::DrawBox(100, 10, 10, 10, 0.0f, WHITE, kFillModeSolid);
 		///
 		/// ↑描画処理ここまで
 		///
